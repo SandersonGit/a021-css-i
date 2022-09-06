@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    font-family: "helvetica";
+}
+
+section .bloco{
+    border: 5px solid black;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    color: rgb(255, 255, 255);
+
+}
+#bloco-1 {
+    background-color:orange ;
+    border: 5px solid rgb(232, 174, 68);
+    
+}
+#bloco-2 {
+    background-color: rgb(60, 198, 60);
+    border: 5px solid rgb(152, 237, 152);
+}
+#bloco-3 {
+    background-color: green;
+    border: 5px dashed rgb(97, 226, 97) ;
+}
+#bloco-4 {
+    background-color: rgb(222, 9, 9);
+    border: 5px dashed rgb(239, 122, 122);
+}
+
+/* section {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items:center
+    
+} */
